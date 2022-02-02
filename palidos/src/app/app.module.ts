@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MusicDetailsComponent } from './pages/music/music-details/music-details.component';
 import { MusicDetails2Component } from './pages/music/music-details2/music-details2.component';
+import { MusicDetails3Component } from './pages/music/music-details3/music-details3.component';
 import { MusicComponent } from './pages/music/music.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { LineUpCardComponent } from './pages/concerts/line-up-card/line-up-card.component';
@@ -21,6 +22,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     MusicComponent,
     MusicDetailsComponent,
     MusicDetails2Component,
+    MusicDetails3Component,
     GalleryComponent,
     LineUpCardComponent,
     ConcertsComponent,
