@@ -10,6 +10,8 @@ import { MusicComponent } from './pages/music/music.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { LineUpCardComponent } from './pages/concerts/line-up-card/line-up-card.component';
 import { ConcertsComponent } from './pages/concerts/concerts.component';
+import { AboutComponent } from './pages/about/about.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ConcertsComponent } from './pages/concerts/concerts.component';
     MusicDetails2Component,
     GalleryComponent,
     LineUpCardComponent,
-    ConcertsComponent
+    ConcertsComponent,
+    AboutComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
