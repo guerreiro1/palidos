@@ -23,6 +23,19 @@ export class ConcertsComponent implements OnInit {
 
   imgAlmada = 'assets/mostramusicaalmada2018.jpg'
   setList4 = ['Cogumelo', 'Bolacha', 'Dias', 'Mar e Joana', 'Assado', 'Fronteira'];
+
+  imgFCT = 'assets/fct2018.jpg'
+  setList5 = ['Dar Vida', 'Cogumelo', 'Bolacha', 'Dias', 'Arret', 'Mar e Joana', 'Fronteira'];
+
+  imgavante = 'assets/avante2018.jpg'
+  setList6 = ['Dar Vida', 'Cogumelo', 'Bolacha', 'Dias', 'Arret', 'Mar e Joana', 'Assado', 'Fronteira'];
+
+  imgsabotage = 'assets/sabotage.png'
+  setList7 = ['Dar Vida', 'Cogumelo', 'Arret', 'Beatriz', 'Dias', 'Assado', 'Bolacha', 'Onda Cinzenta', 'Fronteira'];
+  
+  setList8 = ['Cogumelo', ' Bolacha', 'Assado', 'Fronteira'];
+
+  setList9 = ['Cogumelo', 'Bolacha', 'Dias', 'Assado', 'Fronteira'];
   constructor() { }
 
   ngOnInit(): void {
