@@ -13,6 +13,11 @@ export class ConcertsComponent implements OnInit {
   img1 = 'assets/poster-corroios-730x1024.png';
   setList1 = ['Dar Vida', 'Cogumelo', 'Bolacha', 'Arret', 'Fronteira', 'Onda Cinzenta', 'Memória (Estreia ao vivo)', 'Beatriz', 'Dias', 'Assado', 'Mar e Joana', 'Fronteira (Encore)'];
 
+  setList3 = ['Cogumelo', 'Bolacha', 'Beatriz', 'Arret', 'Dias', 'Dar Vida', 'Onda Cinzenta', 'Mar e Joana', 'Assado', 'Fronteira'];
+
+  img2019_1 ='assets/29-mar-19.jpg'
+  setList2019_1 = ['Cogumelo', 'Bolacha', 'Arret', 'Dias', 'Dar Vida', 'Onda Cinzenta', 'Mar e Joana', 'Assado', 'Fronteira'];
+
   constructor() { }
 
   ngOnInit(): void {
