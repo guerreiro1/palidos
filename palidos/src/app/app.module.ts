@@ -13,6 +13,7 @@ import { LineUpCardComponent } from './pages/concerts/line-up-card/line-up-card.
 import { ConcertsComponent } from './pages/concerts/concerts.component';
 import { AboutComponent } from './pages/about/about.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { MerchandiseComponent } from './pages/merchandise/merchandise.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     LineUpCardComponent,
     ConcertsComponent,
     AboutComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    MerchandiseComponent
   ],
   imports: [
     BrowserModule,
