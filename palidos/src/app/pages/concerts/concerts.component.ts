@@ -36,6 +36,21 @@ export class ConcertsComponent implements OnInit {
   setList8 = ['Cogumelo', ' Bolacha', 'Assado', 'Fronteira'];
 
   setList9 = ['Cogumelo', 'Bolacha', 'Dias', 'Assado', 'Fronteira'];
+
+  setList10 = ['Cogumelo', 'Bolacha', 'Dias', 'Arret', 'Assado', 'Fronteira'];
+
+  imgSeekart2018 = 'assets/seekart2018.png'
+  setList11 = ['Dar Vida', 'Cogumelo', 'Bolacha', 'Dias', 'Arret', 'Assado', 'Beatriz', 'Onda Cinzenta', 'Fronteira'];
+
+  imgaciprestes = 'assets/aciprestes2017.png'
+  setList12 = ['Dar Vida', 'Elevador', 'Bolacha', 'Cogumelo', 'Beatriz', 'Dias', 'Arret', 'Assado', 'Onda Cinzenta', 'Fronteira'];
+
+  imgSeekart2017 = 'assets/seekart2017.png'
+  setList13 = ['Cogumelo', 'Dias', 'Bolacha', 'Dar Vida', 'Elevador', 'Fronteira', 'Beatriz', 'Onda Cinzenta'];
+
+  imgegas = 'assets/egas2017.jpg'
+  setList14 = ['Cogumelo', 'Dias', 'Bolacha', 'Dar Vida', 'Elevador', 'Arret', 'Fronteira', 'Assado', 'Beatriz', 'Onda Cinzenta'];
+
   constructor() { }
 
   ngOnInit(): void {
