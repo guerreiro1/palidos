@@ -93,6 +93,24 @@
             <th></th>
           </tr>
           <tbody>
+            <tr data-toggle="collapse" data-target="#demo8">
+              <td>7 Junho</td>
+              <td>Cine Incrível</td>
+              <td>Almada, Portugal</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="hiddenRow">
+                <div id="demo8" class="collapse">
+                  <app-line-up-card
+                    [setList]=setList3
+                  >
+                  </app-line-up-card>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
             <tr data-toggle="collapse" data-target="#demo4">
               <td>29 Março</td>
               <td>Ponto de Encontro</td>
@@ -102,52 +120,49 @@
               <td colspan="3" class="hiddenRow">
                 <div id="demo4" class="collapse">
                   <app-line-up-card
-                    [img]=img2019_1
+                    [img]=imgpontoencontro
                     [setList]=setList2019_1
                   >
                   </app-line-up-card>
                 </div>
               </td>
             </tr>
-            </tbody>
+          </tbody>
           <tbody>
-          <tr>
-            <td colspan="3" class="hiddenRow">
-              <div id="demo2" class="collapse">
-              </div>
-            </td>
-          </tr>
-        </tbody>
-          <tr data-toggle="collapse" data-target="#demo3">
-            <td>2</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="3" class="hiddenRow">
-              <div id="demo3" class="collapse">Demo2</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo4">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="3" class="hiddenRow">
-              <div id="demo4" class="collapse">Demo3</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo5">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="4" class="hiddenRow">
-              <div id="demo5" class="collapse">Demo3</div>
-            </td>
-          </tr>
+            <tr data-toggle="collapse" data-target="#demo5">
+              <td>17 Março</td>
+              <td>Anjos 70</td>
+              <td>Lisboa, Portugal</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="hiddenRow">
+                <div id="demo5" class="collapse">
+                  <app-line-up-card
+                    [setList]=setList3
+                  >
+                  </app-line-up-card>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr data-toggle="collapse" data-target="#demo6">
+              <td>2 Março</td>
+              <td>Festival de Música Moderna</td>
+              <td>Corroios, Portugal</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="hiddenRow">
+                <div id="demo6" class="collapse">
+                  <app-line-up-card
+                    [img]=imgmusicamoderna
+                    [setList]=setList2019_2
+                  >
+                  </app-line-up-card>
+                </div>
+              </td>
+            </tr>
+          </tbody>
         
         </table>
   
@@ -160,87 +175,24 @@
           </tr>
           </thead>
           <tbody>
-          <tr data-toggle="collapse" data-target="#demo6">
-            <td>1</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="3" class="hiddenRow">
-              <div id="demo6" class="collapse">Demo2</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo7">
-            <td>2</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="3" class="hiddenRow">
-              <div id="demo7" class="collapse">Demo2</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo8">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="3" class="hiddenRow">
-              <div id="demo8" class="collapse">Demo3</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo9">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="4" class="hiddenRow">
-              <div id="demo9" class="collapse">Demo3</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo10">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="4" class="hiddenRow">
-              <div id="demo10" class="collapse">Demo3</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo11">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="4" class="hiddenRow">
-              <div id="demo11" class="collapse">Demo3</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo12">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="4" class="hiddenRow">
-              <div id="demo12" class="collapse">Demo3</div>
-            </td>
-          </tr>
-          <tr data-toggle="collapse" data-target="#demo13">
-            <td>3</td>
-            <td>05 May 2013</td>
-            <td>Credit Account</td>
-          </tr>
-          <tr>
-            <td colspan="4" class="hiddenRow">
-              <div id="demo13" class="collapse">Demo3</div>
-            </td>
-          </tr>
+            <tr data-toggle="collapse" data-target="#demo7">
+              <td>20 Outubro</td>
+              <td>Música Moderna - Cine Incrível</td>
+              <td>Almada, Portugal</td>
+            </tr>
+            <tr>
+              <td colspan="3" class="hiddenRow">
+                <div id="demo7" class="collapse">
+                  <app-line-up-card
+                    [img]=imgAlmada
+                    [setList]=setList4
+                  >
+                  </app-line-up-card>
+                </div>
+              </td>
+            </tr>
           </tbody>
+          
         </table>
       </div>
     </div>

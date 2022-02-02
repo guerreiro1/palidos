@@ -15,9 +15,14 @@ export class ConcertsComponent implements OnInit {
 
   setList3 = ['Cogumelo', 'Bolacha', 'Beatriz', 'Arret', 'Dias', 'Dar Vida', 'Onda Cinzenta', 'Mar e Joana', 'Assado', 'Fronteira'];
 
-  img2019_1 ='assets/29-mar-19.jpg'
+  imgpontoencontro ='assets/29-mar-19.jpg'
   setList2019_1 = ['Cogumelo', 'Bolacha', 'Arret', 'Dias', 'Dar Vida', 'Onda Cinzenta', 'Mar e Joana', 'Assado', 'Fronteira'];
+ 
+  imgmusicamoderna = 'assets/2-mar-19.jpg';
+  setList2019_2 = ['Cogumelo', 'Bolacha', 'Assado', 'Dar Vida', 'Fronteira'];
 
+  imgAlmada = 'assets/mostramusicaalmada2018.jpg'
+  setList4 = ['Cogumelo', 'Bolacha', 'Dias', 'Mar e Joana', 'Assado', 'Fronteira'];
   constructor() { }
 
   ngOnInit(): void {
