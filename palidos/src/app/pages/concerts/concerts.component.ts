@@ -49,7 +49,11 @@ export class ConcertsComponent implements OnInit {
   setList13 = ['Cogumelo', 'Dias', 'Bolacha', 'Dar Vida', 'Elevador', 'Fronteira', 'Beatriz', 'Onda Cinzenta'];
 
   imgegas = 'assets/egas2017.jpg'
-  setList14 = ['Cogumelo', 'Dias', 'Bolacha', 'Dar Vida', 'Elevador', 'Arret', 'Fronteira', 'Assado', 'Beatriz', 'Onda Cinzenta'];
+  setList14 = ['Cogumelo', 'Dias', 'Bolacha', 'Dar Vida', 'Elevador', 'Arret', 'Fronteira', 'Assado', 'Beatriz', 'Onda Cinzenta', 'Fronteira (Pedido do público)'];
+
+  setList15 = ['Dias', 'Cogumelo', 'Bolacha', 'Fronteira', 'Onda Cinzenta', 'Beatriz'];
+
+  setList16 = ['Dar Vida', 'Bolacha', 'Arret', 'Fronteira', 'Beatriz', 'Onda Cinzenta', 'Cogumelo', 'Onda Cinzenta (Pedido do público)']
 
   constructor() { }
 
