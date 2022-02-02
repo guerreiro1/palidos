@@ -1,0 +1,20 @@
+.hiddenRow {
+    padding: 0 !important;
+  }
+  
+  table {
+    margin-bottom: 0;
+  }
+  
+  tbody tr:hover:nth-child(odd){
+    background-color: lightgrey;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  th {
+    font-size: 1.3rem;
+  }
+  
