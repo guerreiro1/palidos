@@ -14,6 +14,7 @@ import { ConcertsComponent } from './pages/concerts/concerts.component';
 import { AboutComponent } from './pages/about/about.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { MerchandiseComponent } from './pages/merchandise/merchandise.component';
+import { TrendingComponent } from './pages/trending/trending.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { MerchandiseComponent } from './pages/merchandise/merchandise.component'
     ConcertsComponent,
     AboutComponent,
     PageNotFoundComponent,
-    MerchandiseComponent
+    MerchandiseComponent,
+    TrendingComponent
   ],
   imports: [
     BrowserModule,
