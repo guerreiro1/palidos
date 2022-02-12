@@ -14,6 +14,7 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { MerchandiseComponent } from './pages/merchandise/merchandise.component';
 import { MerchandiseDetailsComponent } from './pages/merchandise/merchandise-details/merchandise-details.component';
 import { TrendingComponent } from './pages/trending/trending.component';
+import { TrendingDetailsComponent } from './pages/trending/trending-details/trending-details.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -28,7 +29,10 @@ const routes: Routes = [
   { path: 'contacts', component: ContactsComponent},
   { path: 'about', component: AboutComponent},
   { path: 'news', component: TrendingComponent},
-  { path: '**', component: PageNotFoundComponent}];
+  { path: 'news/fim-do-nada-album-de-estreia-dos-palidos', component: TrendingDetailsComponent},
+  { path: '**', component: PageNotFoundComponent},
+  
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
