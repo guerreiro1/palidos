@@ -15,6 +15,8 @@ import { MerchandiseComponent } from './pages/merchandise/merchandise.component'
 import { MerchandiseDetailsComponent } from './pages/merchandise/merchandise-details/merchandise-details.component';
 import { TrendingComponent } from './pages/trending/trending.component';
 import { TrendingDetailsComponent } from './pages/trending/trending-details/trending-details.component';
+import { TrendingDetails2Component } from './pages/trending/trending-details2/trending-details2.component';
+import { TrendingDetails3Component } from './pages/trending/trending-details3/trending-details3.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -30,6 +32,8 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'news', component: TrendingComponent},
   { path: 'news/fim-do-nada-album-de-estreia-dos-palidos', component: TrendingDetailsComponent},
+  { path: 'news/palidos-na-sic-noticias', component: TrendingDetails2Component},
+  { path: 'news/website-festival-da-nocao-avalia-fim-do-nada', component: TrendingDetails3Component},
   { path: '**', component: PageNotFoundComponent},
   
 ];

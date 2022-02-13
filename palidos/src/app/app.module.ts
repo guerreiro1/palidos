@@ -15,6 +15,9 @@ import { AboutComponent } from './pages/about/about.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { MerchandiseComponent } from './pages/merchandise/merchandise.component';
 import { TrendingComponent } from './pages/trending/trending.component';
+import { TrendingDetailsComponent } from './pages/trending/trending-details/trending-details.component';
+import { TrendingDetails2Component } from './pages/trending/trending-details2/trending-details2.component';
+import { TrendingDetails3Component } from './pages/trending/trending-details3/trending-details3.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +34,10 @@ import { TrendingComponent } from './pages/trending/trending.component';
     AboutComponent,
     PageNotFoundComponent,
     MerchandiseComponent,
-    TrendingComponent
+    TrendingComponent,
+    TrendingDetailsComponent,
+    TrendingDetails2Component,
+    TrendingDetails3Component
   ],
   imports: [
     BrowserModule,
