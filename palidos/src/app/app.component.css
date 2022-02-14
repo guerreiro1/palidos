@@ -1,3 +1,5 @@
+body { padding-top: 70px; }
+
 .sm-icons {
     flex-direction: row;
   }
@@ -7,4 +9,4 @@
     }
   }
 
- 
+   
