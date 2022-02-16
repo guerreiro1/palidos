@@ -124,7 +124,7 @@ h1 {
 }
 .static-slider10 .title {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 30px;
   line-height: 50px;
 }
 
@@ -149,7 +149,7 @@ h1 {
 	opacity: 0.8;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
 	.static-slider10 .title {
 	  font-size: 15px;
 	  line-height: 45px;
@@ -159,18 +159,31 @@ h1 {
 	  }
   }
 
+  .drk:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: black;
+	opacity: 0.2;
+	z-index: 1;
+  }
+
 .carousel-caption {
 	text-align: center;
 	margin-top: 90%;
 	bottom:15px;
-	z-index: 999;
+	z-index: 2;
 	font-size: 15px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 	position: absolute;	
   }
 
-  @media (max-width: 690px) {
+  @media (max-width: 500px) {
 	.carousel-caption {
 	position:absolute;
 	  text-align: center;
@@ -185,20 +198,18 @@ h1 {
 	}
 
 	.mt-2{
-		font-size: 8px;
+		font-size: 6px;
 		text-align: center;
 		-ms-flex: 0 1 auto;
 		flex: 0 1 auto;
 	}
 
-	.text-muted{
-		font-size: 5px;
+	.text-light{
+		font-size: 3px;
 		text-align: center;
 		-ms-flex: 0 1 auto;
 		flex: 0 1 auto;
 	}
-
-
 
 	.carousel-indicators li {
 		box-sizing: content-box;
@@ -242,7 +253,7 @@ h1 {
 		flex: 0 1 auto;
 	}
 
-	.text-muted{
+	.text-light{
 		font-size: 12px;
 		text-align: center;
 		-ms-flex: 0 1 auto;
@@ -270,6 +281,4 @@ h1 {
 	
 	
 }
-
-
 
