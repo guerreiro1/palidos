@@ -5,8 +5,8 @@
   background-color: #282d32;
 }
 
- .main{
-  margin-top: 40px;
+ body{
+  padding-top: 40px;
  }
 .sm-icons {
     flex-direction: row;
@@ -58,6 +58,12 @@
 
 .footer-dark ul a:hover {
   opacity: 0.8
+}
+
+@media (max-width: 800px) {
+	.footer-dark {
+	  padding: 30px;
+	}
 }
 
 @media (max-width:767px) {
