@@ -3,14 +3,17 @@ h1{
   }
   
   .img-container:hover .image {
+    flex-wrap:wrap;
     opacity: 0.3;
   }
   
   .img-container:hover .middle {
+    flex-wrap:wrap;
     opacity: 1;
   }
   
   .middle {
+    flex-wrap:wrap;
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -22,16 +25,40 @@ h1{
   }
   
   .img-container {
+    flex-wrap:wrap;
+    display: flex;
     position: relative;
     width: 50%;
   }
   
-  .text {
   
-    font-size: 16px;
-  }
+
   .relevance{
     font-size: 20px;
     font-weight: bold;
   }
+
+  @media (max-width: 400px) {
+    .text {
+      font-size: 8px;
+    }
+    .relevance{
+      font-size: 10px;
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .relevance{
+      font-size: 15px;
+      font-weight: bold;
+    }
+    .text {
+      font-size: 10px;
+    }
+  }
+
+  div{
+    padding-top: 25px;
+     }
   

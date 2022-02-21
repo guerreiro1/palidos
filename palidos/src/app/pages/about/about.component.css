@@ -35,6 +35,16 @@ h1{
     display: inline-block;
   }
   */
+  .text{
+    font-size: 15px;
+  }
+
+  @media (max-width: 500px) {
+    .text {
+      font-size: 8px;
+    }
+  }
+
   .text-box {
     text-align: justify;
   }
