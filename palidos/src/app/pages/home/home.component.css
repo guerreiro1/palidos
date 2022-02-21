@@ -566,3 +566,51 @@ h1 {
 	
 }
 
+@media (max-width: 400px) {
+	.carousel-caption {
+	position:absolute;
+	  text-align: center;
+	  bottom:5px;
+	}
+
+	.my-3{
+		font-size: 8px;
+		text-align: center;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+	}
+
+	.mt-2{
+		font-size: 10px;
+		text-align: center;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+	}
+
+	.text-light{
+		font-size: 0px;
+		text-align: center;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+	}
+
+	.carousel-indicators li {
+		box-sizing: content-box;
+		-ms-flex: 0 1 auto;
+		flex: 0 1 auto;
+		width: 30px;
+		height: 2px;
+		margin-right: 2px;
+		margin-left: 2px;
+		text-indent: -999px;
+		cursor: pointer;
+		background-color: #fff;
+		background-clip: padding-box;
+		border-top: 10px solid transparent;
+		border-bottom: 1px solid transparent;
+		opacity: .5;
+		transition: opacity .6s ease;
+	}
+}
+	
+
