@@ -3,12 +3,10 @@ h1{
   }
   
   .img-container:hover .image {
-    flex-wrap:wrap;
     opacity: 0.3;
   }
   
   .img-container:hover .middle {
-    flex-wrap:wrap;
     opacity: 1;
   }
   
@@ -22,13 +20,6 @@ h1{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  .img-container {
-    flex-wrap:wrap;
-    display: flex;
-    position: relative;
-    width: 50%;
   }
   
   
