@@ -1,5 +1,5 @@
 div{
-	padding-top: 25px;
+	padding-top: 30px;
    }
 
 h1{
@@ -43,6 +43,9 @@ h1{
     .text {
       font-size: 8px;
     }
+    div{
+      padding-top: 35px;
+       }
   }
 
   .text-box {
