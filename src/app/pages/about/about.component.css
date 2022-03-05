@@ -86,7 +86,7 @@ h1{
     vertical-align: top;
     border: solid 1px #404040;
   
-    *display: inline;
+    display: inline-flex;
     zoom: 1;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
