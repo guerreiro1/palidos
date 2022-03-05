@@ -20,6 +20,7 @@ import { TrendingDetails2Component } from './pages/trending/trending-details2/tr
 import { TrendingDetails3Component } from './pages/trending/trending-details3/trending-details3.component';
 import { TrendingDetails4Component } from './pages/trending/trending-details4/trending-details4.component';
 import { TrendingDetails5Component } from './pages/trending/trending-details5/trending-details5.component';
+import { TrendingDetails6Component } from './pages/trending/trending-details6/trending-details6.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { TrendingDetails5Component } from './pages/trending/trending-details5/tr
     TrendingDetails2Component,
     TrendingDetails3Component,
     TrendingDetails4Component,
-    TrendingDetails5Component
+    TrendingDetails5Component,
+    TrendingDetails6Component
   ],
   imports: [
     BrowserModule,

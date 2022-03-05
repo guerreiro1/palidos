@@ -19,6 +19,7 @@ import { TrendingDetails2Component } from './pages/trending/trending-details2/tr
 import { TrendingDetails3Component } from './pages/trending/trending-details3/trending-details3.component';
 import { TrendingDetails4Component } from './pages/trending/trending-details4/trending-details4.component';
 import { TrendingDetails5Component } from './pages/trending/trending-details5/trending-details5.component';
+import { TrendingDetails6Component } from './pages/trending/trending-details6/trending-details6.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -38,6 +39,7 @@ const routes: Routes = [
   { path: 'news/website-festival-da-nocao-avalia-fim-do-nada', component: TrendingDetails3Component},
   { path: 'news/fim-do-nada-e-uma-sugestao-do-website-norte-americano-girl-underground-music', component: TrendingDetails4Component},
   { path: 'news/artigo-sobre-album-de-estreia-na-glam-magazine', component: TrendingDetails5Component},
+  { path: 'news/entrevista-palidos', component: TrendingDetails6Component},
   { path: '**', component: PageNotFoundComponent},
   
 ];
