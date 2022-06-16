@@ -21,6 +21,7 @@ import { TrendingDetails4Component } from './pages/trending/trending-details4/tr
 import { TrendingDetails5Component } from './pages/trending/trending-details5/trending-details5.component';
 import { TrendingDetails6Component } from './pages/trending/trending-details6/trending-details6.component';
 import { TrendingDetails7Component } from './pages/trending/trending-details7/trending-details7.component';
+import { TrendingDetails8Component } from './pages/trending/trending-details8/trending-details8.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
@@ -42,6 +43,7 @@ const routes: Routes = [
   { path: 'news/artigo-sobre-album-de-estreia-na-glam-magazine', component: TrendingDetails5Component},
   { path: 'news/entrevista-palidos', component: TrendingDetails6Component},
   { path: 'news/fim-do-nada-tour-corroios', component: TrendingDetails7Component},
+  { path: 'news/fim-do-nada-tour', component: TrendingDetails8Component},
   { path: '**', component: PageNotFoundComponent},
   
 ];
