@@ -19,10 +19,9 @@
           
           <tbody>
             <tr data-toggle="collapse" data-target="#demo21">
-              <td>8 Julho</td>
-              <td>Titanic Sur Mer</td>
-              <td>Lisboa, Portugal</td>
-              <td style="vertical-align: middle;">	<a class="btn btn-primary btn-sm active" data-toggle="button" aria-pressed="disabled" autocomplete="off">Bilhetes à porta</a></td>
+              <td>18 Novembro</td>
+              <td>Cine-Incrível</td>
+              <td>Almada, Portugal</td>
             </tr>
      
               <tr>
@@ -31,22 +30,6 @@
                   </div>
                </td>
               </tr>
-          </tbody>
-
-          <tbody>
-              <tr data-toggle="collapse" data-target="#demo20">
-                <td>30 Julho</td>
-                <td>Cine-Teatro de Corroios</td>
-                <td>Corroios, Portugal</td>
-                <td style="vertical-align: middle;">	<a class="btn btn-primary btn-sm active" href="news/fim-do-nada-tour-corroios" data-toggle="button" aria-pressed="false" autocomplete="off">Bilhetes</a></td>
-              </tr>
-       
-                <tr>
-                  <td colspan="3" class="hiddenRow">
-                    <div id="demo20" class="collapse">
-                    </div>
-                 </td>
-                </tr>
           </tbody>
 
           <tbody>
@@ -66,9 +49,10 @@
 
           <tbody>
             <tr data-toggle="collapse" data-target="#demo21">
-              <td>18 Novembro</td>
-              <td>Cine-Incrível</td>
-              <td>Almada, Portugal</td>
+              <td>30 Julho</td>
+              <td>Cine-Teatro de Corroios</td>
+              <td>Corroios, Portugal</td>
+              <td style="vertical-align: middle;">	<a class="btn btn-primary btn-sm active" href="news/fim-do-nada-tour-corroios" data-toggle="button" aria-pressed="false" autocomplete="off">Bilhetes</a></td>
             </tr>
      
               <tr>
@@ -77,6 +61,27 @@
                   </div>
                </td>
               </tr>
+        </tbody>
+
+          <tbody>
+            <tr data-toggle="collapse" data-target="#demo20">
+              <td>8 Julho</td>
+              <td>Titanic Sur Mer</td>
+              <td>Lisboa, Portugal</td>
+              <td style="vertical-align: middle;">	<i style="vertical-align: middle;" class="fa-solid fa-up-right-and-down-left-from-center"></i></td>
+            </tr>
+     
+            <tr>
+              <td colspan="3" class="hiddenRow">
+                <div id="demo20" class="collapse">
+                  <app-line-up-card
+                    [img]= imgTitanic
+                    [setList]=setList17
+                  >
+                  </app-line-up-card>
+                </div>
+             </td>
+            </tr>
           </tbody>
 
         </table>
