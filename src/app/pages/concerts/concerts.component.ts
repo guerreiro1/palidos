@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConcertsComponent implements OnInit {
 
+  imgTitanic = 'assets/concerts/TitanicSurMerJul2022.png';
+  setList17 = ['7 AM (Backing Track)', 'Memória, Pt.1', 'Cogumelo', '9 AM (Backing Track)', 'Assado', 'Fronteira', '3 PM (Backing Track)', 'A Brisa Passa (Estreia ao vivo)', 'Bolacha', 'Dar Vida', 'Doninha', '7 PM (Backing Track)', 'Limão (Estreia ao vivo)', 'Beatriz', '11 PM (Backing Track)', 'Memória, Pt.2', 'Mar e Joana (Encore)', '12 PM (Backing Track)'];
+
   img2021_2 = 'assets/concerts/marco-a-partir.png';
   setList2 = ['Dar Vida', 'Doninha', 'Bolacha', 'Fronteira', 'Assado', 'Mar e Joana'];
 
