@@ -18,7 +18,7 @@
           <span class="glyphicon glyphicon-chevron-down"></span>
           
           <tbody>
-            <tr data-toggle="collapse" data-target="#demo21">
+            <tr data-toggle="collapse" data-target="#demo24">
               <td>18 Novembro</td>
               <td>Cine-Incrível</td>
               <td>Almada, Portugal</td>
@@ -33,7 +33,22 @@
           </tbody>
 
           <tbody>
-            <tr data-toggle="collapse" data-target="#demo21">
+            <tr data-toggle="collapse" data-target="#demo23">
+              <td>28 Agosto</td>
+              <td>Baleal Surf Ranch - Praia do Baleal</td>
+              <td>Peniche, Portugal</td>
+            </tr>
+     
+              <tr>
+                <td colspan="3" class="hiddenRow">
+                  <div id="demo21" class="collapse">
+                  </div>
+               </td>
+              </tr>
+          </tbody>
+
+          <tbody>
+            <tr data-toggle="collapse" data-target="#demo22">
               <td>27 Agosto</td>
               <td>Hollywood Spot - Estrelas Feijó</td>
               <td>Almada, Portugal</td>
@@ -52,15 +67,20 @@
               <td>30 Julho</td>
               <td>Cine-Teatro de Corroios</td>
               <td>Corroios, Portugal</td>
-              <td style="vertical-align: middle;">	<a class="btn btn-primary btn-sm active" href="news/fim-do-nada-tour-corroios" data-toggle="button" aria-pressed="false" autocomplete="off">Bilhetes</a></td>
+              <td style="vertical-align: middle;">	<i style="vertical-align: middle;" class="fa-solid fa-up-right-and-down-left-from-center"></i> <!--<a class="btn btn-primary btn-sm active" href="news/fim-do-nada-tour-corroios" data-toggle="button" aria-pressed="false" autocomplete="off">Bilhetes</a>--> </td>
             </tr>
      
-              <tr>
-                <td colspan="3" class="hiddenRow">
-                  <div id="demo21" class="collapse">
-                  </div>
-               </td>
-              </tr>
+            <tr>
+              <td colspan="3" class="hiddenRow">
+                <div id="demo21" class="collapse">
+                  <app-line-up-card
+                    [img]= imgCorroios22
+                    [setList]=setList17
+                  >
+                  </app-line-up-card>
+                </div>
+             </td>
+            </tr>
         </tbody>
 
           <tbody>
