@@ -28,7 +28,11 @@ export class GalleryComponent implements OnInit {
     new galleryImg("assets/galeria/banda (5).jpg", "banda5"),
     new galleryImg("assets/galeria/banda (6).png", "banda6"),
     new galleryImg("assets/galeria/banda (7).jpg", "banda7"),
-    new galleryImg("assets/galeria/banda (8).jpg", "banda8"),
+    new galleryImg("assets/galeria/Titanic (2).jpg", "titanic1"),
+    new galleryImg("assets/galeria/Titanic (1).jpg", "titanic2"),
+    new galleryImg("assets/galeria/30 Jul 22 (4).jpg", "corroios1"),
+    new galleryImg("assets/galeria/30 Jul 22 (5).jpg", "corroios2"),
+    new galleryImg("assets/galeria/30 Jul 22 (6).jpg", "corroios3"),
   ]
   constructor() { }
 
