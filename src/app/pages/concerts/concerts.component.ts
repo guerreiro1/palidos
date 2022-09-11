@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ConcertsComponent implements OnInit {
 
+  imgPeniche22 = 'assets/concerts/peniche22.png';
+  setList19 = ['Memória, Pt.1', 'Cogumelo', 'Assado', 'Dias', 'Fronteira', 'Onda Cinzenta', 'A Brisa Passa', 'Bolacha', 'Dar Vida', 'Doninha', 'Barata (Estreia ao vivo)', 'Limão', 'Beatriz', 'Memória, Pt.2', 'Arret', 'Mar e Joana (Encore)', 'Limão (A pedido do público)'];
+
+  imgFeijo22 = 'assets/concerts/hollywoodspot22.png';
+  setList18 = ['Memória, Pt.1', 'Cogumelo', 'Assado', 'Fronteira', 'A Brisa Passa', 'Bolacha', 'Dar Vida', 'Doninha', 'Limão', 'Beatriz', 'Memória, Pt.2', 'Mar e Joana (Encore)'];
+
+
   imgCorroios22 = 'assets/news/corroios.png';
 
   imgTitanic = 'assets/concerts/TitanicSurMerJul2022.png';

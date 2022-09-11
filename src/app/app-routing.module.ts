@@ -42,7 +42,7 @@ const routes: Routes = [
   { path: 'news/fim-do-nada-e-uma-sugestao-do-website-norte-americano-girl-underground-music', component: TrendingDetails4Component},
   { path: 'news/artigo-sobre-album-de-estreia-na-glam-magazine', component: TrendingDetails5Component},
   { path: 'news/entrevista-palidos', component: TrendingDetails6Component},
-  { path: 'news/fim-do-nada-tour-corroios', component: TrendingDetails7Component},
+  { path: 'news/fim-do-nada-tour-verao', component: TrendingDetails7Component},
   { path: 'news/fim-do-nada-tour', component: TrendingDetails8Component},
   { path: '**', component: PageNotFoundComponent},
   
